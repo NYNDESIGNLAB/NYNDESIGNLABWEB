@@ -33,9 +33,6 @@ $('#gallery-icon-1,#gallery-link-1').on('click', function() {
             }, {
             'src': './img/proj1/9.jpg',
             
-            }, {
-            'src': './img/proj1/10.jpg',
-            
             }]
     })
  
