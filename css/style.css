@@ -1,0 +1,394 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+.pinThese img {
+  position: absolute;
+  margin-left: -9999em;
+}
+.main {
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 10px 10% 1% 10%;
+}
+.logo {
+  margin: 0 auto;
+  width: 200px;
+}
+.links {
+  margin: 0 auto;
+  width: 99px;
+}
+.links ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.links ul li {
+  display: inline;
+}
+.links ul li a i {
+  font-size: 15px;
+  width: 30px;
+  text-align: center;
+  background-color: #ebeaec;
+  border-radius: 100%;
+  height: 30px;
+  line-height: 30px;
+  color: #1f262c;
+}
+.links ul li a i:hover {
+  background-color: #000;
+  color: #fff;
+}
+.pinterest a {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 12px;
+  text-decoration: none;
+  color: #1f262c;
+  text-align: center;
+  background-color: #f5f4f6;
+  padding: 3px 8px 3px 8px;
+  border: solid 1px transparent;
+  text-decoration: none;
+  height: 19px;
+  width: 30px;
+  border-radius: 19px;
+}
+.pinterest a:hover {
+  background-color: #ebeaec;
+  color: #ef6e6e;
+}
+.right .pinterest {
+  position: relative;
+  bottom: 24px;
+  left: 84px;
+  cursor: pointer;
+}
+.left .pinterest {
+  position: relative;
+  bottom: 24px;
+  left: -82px;
+  cursor: pointer;
+}
+.numero-big {
+  font-family: 'Oswald', sans-serif;
+  font-size: 90px;
+  letter-spacing: -3px;
+  height: 90px;
+  line-height: 88px;
+  text-align: center;
+  width: 95px;
+  margin: 0px auto;
+  margin-top: 100%;
+  letter-spacing: -6px;
+  width: 95px;
+  display: none;
+}
+.numero-small {
+  position: relative;
+  top: -58px;
+  left: 10px;
+  font-size: 16px;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 0px 0px 9px rgba(130, 150, 150, 0.76);
+}
+.proj {
+  height: 280px;
+}
+.illustration {
+  max-width: 500px;
+}
+.description {
+  margin-top: 39%;
+  display: none;
+}
+.description .titre {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: -1px;
+  font-size: 25px;
+  line-height: 16px;
+}
+.description .type {
+  font-family: 'Oswald', sans-serif;
+  line-height: 23px;
+  height: 20px;
+}
+.description .intro {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 12px;
+  line-height: 13px;
+  margin-bottom: 4px;
+  margin-top: 6px;
+}
+.description .more a {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 12px;
+  line-height: 19px;
+  color: #c8c0c0;
+  text-decoration: none;
+  height: 19px;
+  width: 30px;
+  text-align: center;
+  border-radius: 19px;
+  color: #6d6c6d;
+  padding: 3px 8px 3px 8px;
+  border: solid 1px transparent;
+}
+.description.right {
+  border-left: solid 2px #f3f0f0;
+  padding-left: 17px;
+}
+.description.right .intro {
+  width: 70%;
+}
+.description.left {
+  border-right: solid 2px #f3f0f0;
+  padding-right: 17px;
+  text-align: right;
+  float: right;
+  width: 100%;
+}
+.description.left .intro {
+  padding-left: 30%;
+}
+.proj1 .numero-big {
+  color: #e3f383;
+}
+.proj1 .description .more a {
+  background-color: #e3f383;
+}
+.proj1 .description .more a:hover {
+  border: solid 1px #d2e949;
+}
+.proj2 .numero-big {
+  color: #fc8060;
+}
+.proj2 .description .more a {
+  background-color: #f8a18b;
+}
+.proj2 .description .more a:hover {
+  border: solid 1px #f08266;
+}
+.proj3 .numero-big {
+  color: #9ddaf6;
+}
+.proj3 .description .more a {
+  background-color: #9ddaf6;
+}
+.proj3 .description .more a:hover {
+  border: solid 1px #69c2ea;
+}
+.proj4 .numero-big {
+  color: #a9afb1;
+}
+.proj4 .description .more a {
+  background-color: #a9afb1;
+}
+.proj4 .description .more a:hover {
+  border: solid 1px #73797b;
+}
+.proj5 .numero-big {
+  color: #d2d5bd;
+}
+.proj5 .description .more a {
+  background-color: #d2d5bd;
+}
+.proj5 .description .more a:hover {
+  border: solid 1px #acae9d;
+}
+.proj6 .numero-big {
+  color: #C3F8C7;
+}
+.proj6 .description .more a {
+  background-color: #C3F8C7;
+}
+.proj6 .description .more a:hover {
+  border: solid 1px #9EF8A5;
+}
+.proj7 .numero-big {
+  color: #F99FF6;
+}
+.proj7 .description .more a {
+  background-color: #F99FF6;
+}
+.proj7 .description .more a:hover {
+  border: solid 1px #F354CA;
+}
+.proj8 .numero-big {
+  color: #FBDDA1;
+}
+.proj8 .description .more a {
+  background-color: #FBDDA1;
+}
+.proj8 .description .more a:hover {
+  border: solid 1px #D7B165;
+}
+.proj9 .numero-big {
+  color: #c3a88f;
+}
+.proj9 .description .more a {
+  background-color: #c3a88f;
+}
+.proj9 .description .more a:hover {
+  border: solid 1px #b99e81;
+}
+.proj10 .numero-big {
+  color: #bde3e6;
+}
+.proj10 .description .more a {
+  background-color: #bde3e6;
+}
+.proj10 .description .more a:hover {
+  border: solid 1px #4dc5c5;
+}
+.proj1:hover > .illustration .pic1,
+.proj2:hover > .illustration .pic2,
+.proj3:hover > .illustration .pic3,
+.proj4:hover > .illustration .pic4,
+.proj5:hover > .illustration .pic5,
+.proj6:hover > .illustration .pic6,
+.proj7:hover > .illustration .pic7,
+.proj8:hover > .illustration .pic8,
+.proj9:hover > .illustration .pic9,
+.proj10:hover > .illustration .pic10 {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+@media screen and (min-width: 768px) {
+  .proj1:hover > .col .description.right,
+  .proj3:hover > .col .description.right,
+  .proj5:hover > .col .description.right,
+  .proj7:hover > .col .description.right,
+  .proj9:hover > .col .description.right {
+    display: block;
+    -webkit-animation: bounceInRight 1s;
+    animation: bounceInRight 1s;
+  }
+  .proj1:hover > .col .numero-big.right,
+  .proj3:hover > .col .numero-big.right,
+  .proj5:hover > .col .numero-big.right,
+  .proj7:hover > .col .numero-big.right,
+  .proj9:hover > .col .numero-big.right {
+    display: block;
+    -webkit-animation: bounceInRight 1s;
+    animation: bounceInRight 1s;
+    display: block;
+  }
+  .proj1:hover > .illustration .numero-small,
+  .proj2:hover > .illustration .numero-small,
+  .proj3:hover > .illustration .numero-small,
+  .proj4:hover > .illustration .numero-small,
+  .proj5:hover > .illustration .numero-small,
+  .proj6:hover > .illustration .numero-small,
+  .proj7:hover > .illustration .numero-small,
+  .proj8:hover > .illustration .numero-small,
+  .proj9:hover > .illustration .numero-small,
+  .proj10:hover > .illustration .numero-small {
+    display: none;
+  }
+  .proj2:hover > .col .description.left,
+  .proj4:hover > .col .description.left,
+  .proj6:hover > .col .description.left,
+  .proj8:hover > .col .description.left,
+  .proj10:hover > .col .description.left {
+    display: block;
+    -webkit-animation: bounceInLeft 1s;
+    animation: bounceInLeft 1s;
+  }
+  .proj2:hover > .col .numero-big.left,
+  .proj4:hover > .col .numero-big.left,
+  .proj6:hover > .col .numero-big.left,
+  .proj8:hover > .col .numero-big.left,
+  .proj10:hover > .col .numero-big.left {
+    display: block;
+    -webkit-animation: bounceInLeft 1s;
+    animation: bounceInLeft 1s;
+    display: block;
+  }
+}
+.contact form {
+  font-family: 'Pontano Sans', sans-serif;
+}
+.contact form input {
+  height: 40px;
+  border-radius: 2px;
+  margin-bottom: 7px;
+}
+.contact form textarea {
+  border-radius: 2px 2px 0px 2px;
+  margin-bottom: 7px;
+}
+.contact form button {
+  border-radius: 2px;
+}
+.outro {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 120px 10px 0px 10px;
+}
+.outro .newsletter {
+  width: 455px;
+  margin: 0 auto;
+}
+.outro .newsletter .see-more {
+  margin-bottom: 15px;
+}
+.outro .newsletter form {
+  float: left;
+  margin-right: 15px;
+}
+.outro .newsletter form input {
+  width: 300px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #e4e4e4;
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 0 15px 0 20px;
+}
+.outro .newsletter form input[type=text]:focus {
+  border: 2px solid #e4e4e4;
+  outline: none;
+}
+.outro .newsletter span {
+  height: 40px;
+  line-height: 40px;
+}
+.copyright {
+  color: grey;
+  font-size: 12px;
+}
+@media screen and (max-width: 768px) {
+  .row .col {
+    text-align: center;
+  }
+  .numero-small {
+    left: 120px;
+    top: -40px;
+  }
+  .proj {
+    height: 240px;
+  }
+  .outro .newsletter form {
+    float: none;
+  }
+  .outro .btn {
+    float: none;
+  }
+  .outro .newsletter {
+    width: 100%;
+  }
+  .outro .newsletter form input {
+    width: 100%;
+  }
+}
