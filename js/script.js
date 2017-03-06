@@ -7,6 +7,7 @@ $('#gallery-icon-1,#gallery-link-1').on('click', function() {
         download: false,
         counter: false,
         showAfterLoad: true,
+        preload: 3,
         dynamicEl: [{
             'src': './img/proj1/1.jpg',
             
